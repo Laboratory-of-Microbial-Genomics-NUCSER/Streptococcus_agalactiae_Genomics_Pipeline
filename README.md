@@ -25,14 +25,16 @@ mlst --scheme sagalactiae --csv *.fasta > mlst_sagalactiae.csv
 #### 2. Serotyping
 Perform in silico capsular polysaccharide sequence based serotyping to assign serotype with [swainechen/GBS-SBG](https://github.com/swainechen/GBS-SBG)
 
-Clone the git repo 
+Clone the git repo
 ```python
 git clone https://github.com/swainechen/GBS-SBG
 ```
 Serotype calling on multiple genome assemblies
-```python
+
+```console
 for file in /path_to_assembly_files/*fasta; do  perl GBS-SBG.pl "$file" -name "$(basename "$file".fasta)" -best >> serotype.txt; done
 ```
+
 Refer [kaholt/srst2](https://github.com/katholt/srst2) for short read serotype calling
 #### 3. Surafce protein,  
 #### 4.
