@@ -30,11 +30,34 @@ Jaccard distance = 1 - No. of shared spacers/ No. of total spacers
 - Rows = genomes
 - Columns = spacers
 - Values = 0 or 1
+
+#### **Dependencies**
+Install requirements with either pip or conda:
+
+Using pip:
+
+```markdown
+pip install pandas scipy
+```
+
+Using conda:
+
+```markdown
+conda install pandas scipy
+```
 #### **Script**
+- Download file: [crispr_upgma_tree.py](crispr_upgma_tree.py)
 
 
 #### 🚀 **Usage**
 
 ##### Run in Linux / macOS / Windows terminal
-```bash
+```markdown
 python3 crispr_upgma_tree.py -i spacermatrix.csv -o CRISPR_UPGMA_tree.newick --sep ","
+```
+#### **Output**
+NEWICK formatted UPGMA tree (tree scale in jaccard distance 0-1)
+
+CRISPR1 UPGMA tree for S. agalactiae ST7 Ia isolates[CRISPR_UPGMA_tree.newick](CRISPR_UPGMA_tree.newick)
+
+Annotate the tree with metadata (DR, isolation source, country, year, ST, serotype, etc)
