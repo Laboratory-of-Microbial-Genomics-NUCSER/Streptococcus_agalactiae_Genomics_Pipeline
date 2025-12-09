@@ -34,6 +34,9 @@ Serotype calling on multiple genome assemblies
 ```console
 for file in /path_to_assembly_files/*fasta; do  perl GBS-SBG.pl "$file" -name "$(basename "$file".fasta)" -best >> serotype.txt; done
 ```
+```markdown
+for file in /path_to_assembly_files/*fasta; do  perl GBS-SBG.pl "$file" -name "$(basename "$file".fasta)" -best >> serotype.txt; done
+```
 
 Refer [kaholt/srst2](https://github.com/katholt/srst2) for short read serotype calling
 #### 3. Surafce protein,  
