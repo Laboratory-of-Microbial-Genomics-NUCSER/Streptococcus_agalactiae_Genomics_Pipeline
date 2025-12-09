@@ -54,8 +54,15 @@ Mass screenng of resistance genes, virulence genes, and plasmids using [tseemann
 - See section: [ABRicate README](ABRicate/README.md)
 
 ## 3. Phylogentic analysis
+Genome annotation 
 
+Core genome alignment
 
+Recombination prediction and filtering
+
+Phylogentic reconstruction 
+
+see section 
 ## 4. Pan genome analysis and metabolic estimation with anvi'o
 #### a. Pan genome analysis
 #### b. Metabolic estimation
