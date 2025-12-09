@@ -14,7 +14,7 @@ for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $
 ## 2. Filtering 
 Filter CRISPR1 arrays with evidence level 4 and CRISPR1 arrays with cas association and DR conservation for evidence level <4. 
 
-Convert filtered spacers to presence absence matrix.
+Convert filtered spacers into presence absence matrix.
 
 | Genome | Spacer1 | Spacer2 | ... |
 |--------|---------|---------|-----|
