@@ -29,7 +29,7 @@ Add multifasta files of genes to be screened
 1. Insertion sequence  [IS_sequences](IS_sequences)
 2. FbsB variants [FbsB_variant_sequences](FbsB_variant_sequences)
 3. Bca variants [Bca_variant_sequences](Bca_variant_sequences)
-4. Bac variants [Bac_variant_sequences](ABRicate/Bac_variant_sequences)
+4. Bac variants [Bac_variant_sequences](Bac_variant_sequences)
 
 Note: These databases contains IS/ gene varaints only present in S. agalactiae ST7 Ia isolates used in this study
 
