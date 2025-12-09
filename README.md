@@ -23,7 +23,7 @@ mlst --scheme sagalactiae --csv *.fasta > mlst_sagalactiae.csv
 ```
 
 #### 2. Serotyping
-Perform in silico capsular polysaccharide sequence based serotyping to assign serotype with [swainechen/GBS-SBG](https://github.com/swainechen/GBS-SBG)
+Perform in silico capsular polysaccharide sequence based serotyping to assign serotype using [swainechen/GBS-SBG](https://github.com/swainechen/GBS-SBG)
 
 Clone the git repo
 ```markdown
@@ -41,13 +41,18 @@ For surface protein typing (alpha variants, hvga, pili, and serine rich repeats)
 #### 4. Prophage integrase typing 
 For prophage integrase based typing on S. agalactiae assemblies follow [chcrestani/GBS_prophage_integrase_typing](https://github.com/chcrestani/GBS_prophage_integrase_typing) 
 #### 5. Insertion sequence elements
-To type S. agalactiae genomes based on IS elements see section 
+To type S. agalactiae genomes based on IS elements
+- See section : [ABRicate README](ABRicate/README.md)
 
 #### 6. CRISPR1 typing 
 To perform CRISPR1 typing from WGS data
 - See: [CRISPR1 Typing README](CRISPR1%20Typing/README.md)
 
 ## 2. Screening for ARGs, virulence genes and plasmids
+Mass screenng of resistance genes, virulence genes, and plasmids using [tseemann/abricate](https://github.com/tseemann/abricate)
+
+- See section: [ABRicate README](ABRicate/README.md)
+
 ## 3. Phylogentic analysis
 
 
