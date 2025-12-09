@@ -59,7 +59,7 @@ conda install pandas scipy
 
 ##### Run in Linux / macOS / Windows terminal
 ```markdown
-python3 crispr_upgma_tree.py -i spacermatrix.csv -o CRISPR_UPGMA_tree.newick --sep ","
+python3 crispr_upgma_tree.py -i CRISPR1_spacer_matrix.csv.csv -o CRISPR_UPGMA_tree.newick --sep ","
 ```
 #### **Output**
 NEWICK formatted UPGMA tree (tree scale in jaccard distance 0-1)
