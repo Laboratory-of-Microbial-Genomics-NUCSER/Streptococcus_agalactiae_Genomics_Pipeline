@@ -44,8 +44,9 @@ abricate --setupdb
 abricate --list
 ```
 You will see 
-DATABASE  SEQUENCES  DBTYPE  DATE
-IS        5          nucl    2025-Dec-10
+DATABASE	SEQUENCES	DBTYPE	DATE
+IS	5	nucl	2025-Dec-10
+
 
 Run abricate with new db (--db IS) 
 
