@@ -38,21 +38,15 @@ for file in /path_to_assembly_files/*fasta; do  perl GBS-SBG.pl "$file" -name "$
 Refer [kaholt/srst2](https://github.com/katholt/srst2) for short read serotype calling
 #### 3. Surafce protein and penicilin binding protein based typing 
 For surface protein typing (alpha variants, hvga, pili, and serine rich repeats) and penicilin binding protein based typing follow [GBS-Typer-sanger-nf](https://github.com/sanger-bentley-group/GBS-Typer-sanger-nf) pipeline. 
+#### 4. Prophage integrase typing 
+For prophage integrase based typing on S. agalactiae assemblies follow [chcrestani/GBS_prophage_integrase_typing](https://github.com/chcrestani/GBS_prophage_integrase_typing) 
+#### 5. Insertion sequence elements
+To type S. agalactiae genomes based on IS elements see section 
 
-#### 4. CRISPR1 typing 
-Identify CRISPR arrays and associated Cas proteins assemblies with [CRISPRCasFinder](https://github.com/dcouvin/CRISPRCasFinder)
+#### 6. CRISPR1 typing 
+To perform CRISPR1 typing from WGS data
+- See: [CRISPR1 Typing README](CRISPR1%20Typing/README.md)
 
-Easy install
-```markdown
-conda env create -f ccf.environment.yml -n crisprcasfinder
-```
-Usage on multiple assembly files
-```markdown
-for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $file";     perl CRISPRCasFinder.pl -in "$file" -cas -keep; done
-```
-
-#### 5.
-#### 6.
 ## 2. Screening for ARGs, virulence genes and plasmids
 ## 3. Phylogentic analysis
 
