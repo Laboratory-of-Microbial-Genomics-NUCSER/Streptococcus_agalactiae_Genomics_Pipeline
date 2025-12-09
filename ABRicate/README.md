@@ -9,11 +9,19 @@ conda install -c conda-forge -c bioconda abricate
 ```markdown
 abricate --db card /path_to_assemblyfiles/*.fasta>output_card.tab
 ```
---db resfinder for antimircobial resistance genes  
+--db resfinder for antimircobial resistance genes 
+--db vfdb for virulence genes 
 --db plasmidfinder for plasmid detection
 
+Use --mincov and --minid options to change detection coverage and identity threshold 
+
+Simplify output to an combined presence absence matrix
+```markdown
+abricate --summary output_card.tab > summary_card.csv
+```
+
 ## Screening assemblies againt own database
-create a newfolder within abricate db directory 
+create a new folder within abricate db directory 
 
 
 Add multifasta files of genes to be screened
@@ -22,6 +30,8 @@ Add multifasta files of genes to be screened
 2. FbsB variants
 3. Bca variants 
 4. Bac variants
+
+Note: These databases contains IS/ gene varaints only present in S. agalactiae ST7 Ia isolates used in this study
 
 ```markdown
 makeblastdb -in sequences -dbtype nucl
