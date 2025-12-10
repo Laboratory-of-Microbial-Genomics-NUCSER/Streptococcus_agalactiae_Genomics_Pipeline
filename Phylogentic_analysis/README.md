@@ -47,7 +47,7 @@ gubbins_out_core_gene_alignment.filtered_polymorphic_sites.fasta
 gubbins_out_recombination_predictions.gff
 ## 4. Maximum-likelihood tree construction
 Perform phylogenetic reconstruction using  [ RAxML v.8](https://github.com/stamatak/standard-RAxML)
-#### 1. First remove gubbins predicted recombination regions from the concantated core genome alignmnt 
+#### 4.1. First remove gubbins predicted recombination regions from the concantated core genome alignmnt 
 
 #### script: [remove_recombination.py](remove_recombination.py) 
 
@@ -57,7 +57,7 @@ python remove_recombination.py \
     -i gubbins_out.recombination_predictions.gff core_gene_alignment.aln \
     -o recombination_removed_core_genome_alignment.fasta
 ```
-#### 2. Run RAxML
+#### 4.2. Run RAxML
 
 #### Easy install
 ```markdown
@@ -89,9 +89,15 @@ raxmlHPC-PTHREADS -T 12   -s /path_to_file/recombination_removed_core_alignment.
 ```markdown
 raxmlHPC-PTHREADS -T 12   -s /path_to_file/gubbins_out_filtered_polymorphic_sites.fasta   -m ASC_GTRGAMMA --asc-corr=lewis   -p 12345 -x 12345 -# 1000 -f a   -n name_RAxML_out_GTRGAMMA_1000_asc
 ```
-#### 3. Visualize and annotate
+#### 4.3. Visualize and annotate
 Upload the RaxMl output "RAxML_bipartitions.name" in figtree/itol/microreact to visualize final ML tree with bootstrap support values added to internal nodes.
 ## 5. Time scaled phylogeny 
-Follow 
+Use Bayesian Evolutionary Analysis by Sampling Trees [(BEAST)](https://github.com/beast-dev/beast-mcmc?tab=readme-ov-file), a cross-platform program for Bayesian analysis of molecular sequences using MCMC
 
-Here is the tutorial for running BEAST [ ](https://github.com/stamatak/standard-RAxML)
+Follow [BEAST.COMMUNITY](https://beast.community/installing) for installing BEAST and associated software packages needed for time scaled phylogenetic analyis
+
+Here is the tutorial for running BEAST 
+
+[ First_tutorial](https://beast.community/first_tutorial) 
+
+[Second tutorial](https://beast.community/second_tutorial)
