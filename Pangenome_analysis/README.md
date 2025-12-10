@@ -40,6 +40,24 @@ Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida
 Here is the fully reproducible interactive metabolic completeness matrix of Streptococcus agalactiae ST7 Ia genomes used in this study
 
 
+Here is the fully reproducible interactive pan genome of Streptococcus agalactiae ST7 Ia genomes used in this study 
+
+#### Download 
+[GBS_ST7_Ia_Metabolism.tar.xz](GBS_ST7_Ia_Metabolism.tar.xz) 
+#### Unzip
+```markdown
+tar -xf GBS_ST7_Ia_Metabolism.tar.xz
+``` 
+#### Move into the directory
+```markdown
+cd GBS_ST7_Ia_Metabolism
+```
+
+#### Activate anvi'o
+```markdown
+conda activate anvio-8
+```
+
 
 
 #### Simply run
@@ -49,4 +67,6 @@ Here is the fully reproducible interactive metabolic completeness matrix of Stre
 ```
 and you are done. The interactive metaboplic completness matrix is ready. 
 
-Follow [Metabolic nvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
+Change pathwise to stepwise for stepwise completeness matrix
+
+Follow [Metabolic_reconstruction_excerise](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) tutorial to perform metabolic estimation and enrichment analysis on your data
