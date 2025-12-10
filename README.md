@@ -62,12 +62,11 @@ Recombination prediction and filtering
 
 Phylogentic reconstruction and time scaled phylogeny
 
-- see section [Phylogentic_analysis README](Phylogentic_analysis/README.md)
+- see section: [Phylogentic_analysis README](Phylogentic_analysis/README.md)
 
 ## 4. Pan genome analysis and metabolic estimation with anvi'o
 - see section [Pangenome_analysis README](Pangenome_analysis/README.md)
-### 4.a. Pan genome analysis
-### 4.b. Metabolic estimation
+
 
 
 ## 5. Genome Wide Association Study
@@ -76,7 +75,4 @@ Phylogentic reconstruction and time scaled phylogeny
 Create an interactive Manhattan plot and hover over the points to view the genetic variants (SNPs and indels) that are associated with the host group. Find the scripts and data here: [GWAS — SNPs and indels](./GWAS/SNPs%20and%20indels/)
 
 
-FTGFG
-
-
-### Acknowledgements and fundings
+### Acknowledgements and funding
