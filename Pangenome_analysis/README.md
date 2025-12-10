@@ -29,9 +29,9 @@ conda activate anvio-8
 ```
 #### Simply run
 ```markdown
-anvi-display-pan -p GBS-PAN.db                  -g GBS-GENOMES.db
+anvi-display-pan -p GBS-PAN.db -g GBS-GENOMES.db
 ```
-and you are done. The pan genome is ready. 
+and you are done. The interactive pan genome is ready. 
 
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
@@ -39,3 +39,14 @@ Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida
 
 Here is the fully reproducible interactive metabolic completeness matrix of Streptococcus agalactiae ST7 Ia genomes used in this study
 
+
+
+
+#### Simply run
+```markdown
+ anvi-interactive -d GBS_metabolism-module_pathwise_completeness-MATRIX.txt -p modules_heatmap.db  --manual --title "GBS PATHWISE METABOLISM COMPLETENESS HEATMAP"
+
+```
+and you are done. The interactive metaboplic completness matrix is ready. 
+
+Follow [Metabolic nvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
