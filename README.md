@@ -60,7 +60,7 @@ Core genome alignment
 
 Recombination prediction and filtering
 
-Phylogentic reconstruction 
+Phylogentic reconstruction and time scaled phylogeny
 
 - see section [Phylogentic_analysis README](Phylogentic_analysis/README.md)
 

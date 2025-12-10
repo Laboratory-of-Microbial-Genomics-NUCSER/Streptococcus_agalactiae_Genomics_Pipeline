@@ -96,8 +96,12 @@ Use Bayesian Evolutionary Analysis by Sampling Trees [(BEAST)](https://github.co
 
 Follow [BEAST.COMMUNITY](https://beast.community/installing) for installing BEAST and associated software packages needed for time scaled phylogenetic analyis
 
+Use "recombination_removed_core_genome_alignment.fasta" and sampling dates as input for time scaled phylogenetic analysis.
+
 Here is the tutorial for running BEAST 
 
 [ First_tutorial](https://beast.community/first_tutorial) 
 
 [Second tutorial](https://beast.community/second_tutorial)
+
+
