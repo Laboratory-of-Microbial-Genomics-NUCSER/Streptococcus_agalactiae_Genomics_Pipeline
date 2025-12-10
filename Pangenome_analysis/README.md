@@ -64,7 +64,7 @@ conda activate anvio-8
 
 #### Simply run
 ```markdown
- anvi-interactive -d GBS_metabolism-module_pathwise_completeness-MATRIX.txt -p modules_heatmap.db  --manual --title "GBS PATHWISE METABOLISM COMPLETENESS HEATMAP"
+anvi-interactive -d GBS_metabolism-module_pathwise_completeness-MATRIX.txt -p modules_heatmap.db  --manual --title "GBS PATHWISE METABOLISM COMPLETENESS HEATMAP"
 
 ```
 and you are done. The interactive metaboplic completness matrix is ready. 
