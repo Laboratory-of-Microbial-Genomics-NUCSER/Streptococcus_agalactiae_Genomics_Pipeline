@@ -1,4 +1,4 @@
-## Pan genome analysis and metabolic estimation with anvi'o
+# Pan genome analysis and metabolic estimation with anvi'o
 This repository contains scripts and resources used for pan genome analysis and metabolic estimation of Streptococcus agalactiae ST7 Ia genomes as described in the manuscript.
 
 Refer  [anvi'o](https://anvio.org/) an open-source, community-driven analysis and visualization platform for microbial 'omics.
@@ -8,7 +8,7 @@ Follow [anvio_install](https://anvio.org/install) for installing anvi'o
 
 
 
-### 1. Pan genome analysis 
+## 1. Pan genome analysis 
 
 Here is the fully reproducible interactive pan genome of Streptococcus agalactiae ST7 Ia genomes used in this study 
 
@@ -35,7 +35,7 @@ and you are done. The interactive pan genome is ready.
 
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
-### 2. Metabolic estimation and enrichment analysis
+## 2. Metabolic estimation and enrichment analysis
 
 Here is the fully reproducible interactive metabolic completeness matrix of Streptococcus agalactiae ST7 Ia genomes used in this study
 
