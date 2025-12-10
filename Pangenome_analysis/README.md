@@ -18,6 +18,10 @@ Here is the fully reproducible interactive pan genome of Streptococcus agalactia
 #### Unzip
 ```markdown
 tar -xf GBS_ST7Ia_Pangenome.tar.xz
+``` 
+#### Move into the directory
+```markdown
+cd GBS_ST7Ia_Pangenome
 ```
 
 #### Activate anvi'o
