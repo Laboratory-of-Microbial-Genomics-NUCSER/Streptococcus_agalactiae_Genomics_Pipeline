@@ -62,10 +62,12 @@ Recombination prediction and filtering
 
 Phylogentic reconstruction 
 
-see section 
+- see section [Phylogentic_analysis README](Phylogentic_analysis/README.md)
+
 ## 4. Pan genome analysis and metabolic estimation with anvi'o
-#### a. Pan genome analysis
-#### b. Metabolic estimation
+- see section [Pangenome_analysis README](Pangenome_analysis/README.md)
+### 4.a. Pan genome analysis
+### 4.b. Metabolic estimation
 
 
 ## 5. Genome Wide Association Study

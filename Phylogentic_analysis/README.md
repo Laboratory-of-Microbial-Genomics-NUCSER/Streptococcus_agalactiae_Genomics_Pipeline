@@ -89,5 +89,5 @@ raxmlHPC-PTHREADS -T 12   -s /path_to_file/recombination_removed_core_alignment.
 ```markdown
 raxmlHPC-PTHREADS -T 12   -s /path_to_file/gubbins_out_filtered_polymorphic_sites.fasta   -m ASC_GTRGAMMA --asc-corr=lewis   -p 12345 -x 12345 -# 1000 -f a   -n name_RAxML_out_GTRGAMMA_1000_asc
 ```
-## 3. Visualize and annotate
+#### 3. Visualize and annotate
 Upload the RaxMl output "RAxML_bipartitions.name" in figtree/itol/microreact to visualize final ML tree with bootstrap support values added to internal nodes.
