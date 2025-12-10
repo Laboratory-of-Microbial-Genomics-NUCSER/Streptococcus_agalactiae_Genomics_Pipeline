@@ -34,4 +34,8 @@ anvi-display-pan -p GBS-PAN.db                  -g GBS-GENOMES.db
 ```
 and you are done. The pan genome is ready. 
 
-Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) on your data
+Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
+
+### 2. Metabolic estimation and enrichment analysis
+
+Here is the fully reproducible interactive metabolic completeness matrix of Streptococcus agalactiae ST7 Ia genomes used in this study
