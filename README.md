@@ -1,4 +1,4 @@
-# Streptococcus_agalactiae_Host_adaptation_paper
+# *Streptococcus_agalactiae*_Host_adaptation_paper
 This repository contains the scripts and data used in the manuscript described below.
 # Manucript Title
 *authors list
@@ -9,7 +9,7 @@ xxxxx
 ### Abstract
 xxxxx
 # Pipelines
-## 1. S. agalactiae typing schemes
+## 1. *S. agalactiae* typing schemes
 #### 1. MLST
 Perform in silico MLST to assign sequence type (STs) with [tseeman/mlst](https://github.com/tseemann/mlst)
 
@@ -72,7 +72,7 @@ Phylogentic reconstruction and time scaled phylogeny
 ## 5. Genome Wide Association Study
 #### a. 
 #### b. Visualization
-Create an interactive Manhattan plot and hover over the points to view the genetic variants (SNPs and indels) that are associated with the host group. Find the scripts and data here: [GWAS — SNPs and indels](./GWAS/SNPs%20and%20indels/)
+Create an interactive Manhattan plot and hover over the points to view the genetic variants (SNPs and indels) that are associated with the host group. Find the scripts and data here: [GWAS_Interactive_Manhattan_plot README.md](GWAS_Interactive_Manhattan_plot/README.md)
 
 
 ### Acknowledgements and funding

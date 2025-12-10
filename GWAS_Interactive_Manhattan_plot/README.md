@@ -1,5 +1,5 @@
 # Genome-Wide Association Study (GWAS)
-This folder contains data and scripts to analyze GWAS results (SNPs, Indels and Kmers), map them to genes, and generate interactive Manhattan plots.
+This folder contains the data and scripts used to process and visualize Genome-Wide Association Study (GWAS) results generated for Streptococcus agalactiae ST7 Ia isolates in this study. The analyses include SNPs, indels, and k-mers identified from whole-genome sequencing data. 
 
 ## SNPs and indels
 ### Extract SNPs
@@ -28,6 +28,8 @@ navigate to the folder containing the script and data files, then run:
 `````python
 python snp_indels_interactive_manhattan_plot.py
 `````
+
+hover over the points to view the signifcant SNPs that are associated with the host group and map to genes
 ## Kmers
 ### Visualize interactive Manhattan plots
 #### Dependencies
@@ -60,3 +62,5 @@ python kmers_interactive_manhattan_plot_aquaticclade1.py
 `````python
 python kmers_interactive_manhattan_plot_aquaticclade2.py
 `````
+
+Hover over the points to view the significant indels that are associated with the host group and map to genes.
