@@ -91,3 +91,7 @@ raxmlHPC-PTHREADS -T 12   -s /path_to_file/gubbins_out_filtered_polymorphic_site
 ```
 #### 3. Visualize and annotate
 Upload the RaxMl output "RAxML_bipartitions.name" in figtree/itol/microreact to visualize final ML tree with bootstrap support values added to internal nodes.
+## 5. Time scaled phylogeny 
+Follow 
+
+Here is the tutorial for running BEAST [ ](https://github.com/stamatak/standard-RAxML)
