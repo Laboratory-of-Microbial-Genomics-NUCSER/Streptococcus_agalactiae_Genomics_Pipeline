@@ -29,7 +29,7 @@ conda activate anvio-8
 ```
 #### Simply run
 ```markdown
-anvi-display-pan -p GBS-PAN.db -g GBS-GENOMES.db
+anvi-display-pan -p S_agalactiae-PAN.db -g S_agalactiae-GENOMES.db
 ```
 and you are done. The interactive pan genome is ready. 
 
