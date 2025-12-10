@@ -33,6 +33,8 @@ anvi-display-pan -p S_agalactiae-PAN.db -g S_agalactiae-GENOMES.db
 ```
 and you are done. The interactive pan genome is ready. 
 
+Here is the summary file [S_agalactiae_gene_clusters_summary.txt.gz](S_agalactiae_gene_clusters_summary.txt.gz) 
+
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
 ## 2. Metabolic estimation and enrichment analysis
