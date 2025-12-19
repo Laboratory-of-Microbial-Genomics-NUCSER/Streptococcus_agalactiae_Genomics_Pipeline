@@ -74,8 +74,6 @@ Rarefaction curves ..........................................: Sagalactiae_raref
 Here is the fully reproducible interactive metabolic completeness matrix of *S. agalactiae* ST7 Ia genomes used in this study
 
 
-Here is the fully reproducible interactive pan genome of *S. agalactiae* ST7 Ia genomes used in this study 
-
 #### Download 
 [GBS_ST7_Ia_Metabolism.tar.xz](GBS_ST7_Ia_Metabolism.tar.xz) 
 #### Unzip
