@@ -37,16 +37,16 @@ Here is the summary file [S_agalactiae_gene_clusters_summary.txt.gz](S_agalactia
 
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
-### Quantification of genome openess
+### Quantification of genome openness
 
-The genome opennes can be quantified by alculating pangenome rarefaction curves and estimating Heaps’ Law parameters, which describe whether a pangenome is open or closed. This analysis can be performed with anvio's *anvi-compute-rarefaction-curves* programme [tutorials](https://merenlab.org/2016/11/08/pangenomics-v2/#calculating-rarefaction-curves-and-heaps-law-parameters)
+Genome openness can be quantified by computing pangenome rarefaction curves and estimating Heaps’ Law parameters, which indicate whether a pangenome is open or closed by modeling the rate at which new gene clusters are identified with the sequential addition of genomes. This analysis can be  performed using the anvi’o program *anvi-compute-rarefaction-curves* [tutorials](https://merenlab.org/2016/11/08/pangenomics-v2/#calculating-rarefaction-curves-and-heaps-law-parameters)
 
 **Note:** The *anvi-compute-rarefaction-curves* function is only available in *anvio-dev* the developmental version of anvio 
 
 Follow [anvio.org/install/linux/dev](https://anvio.org/install/linux/dev/) for installing the anvio's developmental version.
 
 #### Usage
-Activate anvio-dev
+Once installed activate anvio-dev environment
 ```markdown
 conda activate anvio-dev
 ```
