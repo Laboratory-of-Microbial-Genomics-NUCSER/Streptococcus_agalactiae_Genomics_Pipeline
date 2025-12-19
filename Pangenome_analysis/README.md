@@ -37,12 +37,44 @@ Here is the summary file [S_agalactiae_gene_clusters_summary.txt.gz](S_agalactia
 
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
+### Quantification of genome openess
+
+The genome opennes can be quantified by alculating pangenome rarefaction curves and estimating Heaps’ Law parameters, which describe whether a pangenome is open or closed. This analysis can be performed with anvio's *anvi-compute-rarefaction-curves* programme [tutorials](https://merenlab.org/2016/11/08/pangenomics-v2/#calculating-rarefaction-curves-and-heaps-law-parameters)
+
+**Note:** The *anvi-compute-rarefaction-curves* function is only available in *anvio-dev* the developmental version of anvio 
+
+Follow [anvio.org/install/linux/dev](https://anvio.org/install/linux/dev/) for installing the anvio's developmental version.
+
+#### Usage
+Activate anvio-dev
+```markdown
+conda activate anvio-dev
+```
+Move a copy of PAN-db file created with anvio-8 into a new directory and migrate the PAN-db to the anvi’o development schema (DB v21) using anvi-migrate
+
+```markdown
+anvi-migrate   --migrate-safely   /path/to/PAN.db
+```
+Now run
+```markdown
+anvi-compute-rarefaction-curves   -p /path/to/S_agalactiae-PAN.db   -O Sagalactiae_rarefaction   --iterations 100
+```
+
+#### Output
+        
+Number of genomes found ..........................: 128                             
+Number of iterations to run .........................: 100                             
+Heaps' Law parameters estimated ..............: K=1658.5266, alpha=0.1221                           
+Rarefaction curves ..........................................: Sagalactiae_rarefaction-rarefaction-curves.svg
+
+
+
 ## 2. Metabolic estimation and enrichment analysis
 
-Here is the fully reproducible interactive metabolic completeness matrix of Streptococcus agalactiae ST7 Ia genomes used in this study
+Here is the fully reproducible interactive metabolic completeness matrix of *S. agalactiae* ST7 Ia genomes used in this study
 
 
-Here is the fully reproducible interactive pan genome of Streptococcus agalactiae ST7 Ia genomes used in this study 
+Here is the fully reproducible interactive pan genome of *S. agalactiae* ST7 Ia genomes used in this study 
 
 #### Download 
 [GBS_ST7_Ia_Metabolism.tar.xz](GBS_ST7_Ia_Metabolism.tar.xz) 
