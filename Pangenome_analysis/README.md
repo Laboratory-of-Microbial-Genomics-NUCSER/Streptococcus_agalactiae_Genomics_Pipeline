@@ -67,7 +67,43 @@ Number of iterations to run .........................: 100
 Heaps' Law parameters estimated ..............: K=1658.5266, alpha=0.1221                           
 Rarefaction curves ..........................................: Sagalactiae_rarefaction-rarefaction-curves.svg
 
+### Functional enrichment
+This section describes the workflow used to compare COG functional category enrichment between groups.
+#### 1. Gene prediction with Prodigal 
+Follow [hyattpd/Prodigal](https://github.com/hyattpd/Prodigal) for gene annotation for your assemblies (fna/fa/fasta)
 
+#### 2. Functional annotation using eggNOG-mapper
+Follow [eggnog-mapper](https://github.com/eggnogdb/eggnog-mapper) for fast genome-wide functional annotation on your protein files (faa) generated from prodigal
+
+
+**Note:** Instead of maintaining the large  eggNOG database locally, run it with UseGalaxy server-save disk space, setup time, and a fair amount of patience.
+
+
+
+#### 3. Extraction of COG category counts
+Use the below python script to extract COG functional categories from the eggNOG-mapper tabular outputs into STAMP-ready tsv file
+
+ [extract_COG_category_annotation.py](extract_COG_category_annotation.py)
+
+ **Usage** 
+```markdown
+python extract_COG_category_annotation.py -i /path/to/eggnog_output_directory
+```
+**Output** 
+
+.tsv file (STAMP ready format)
+
+| COG_Category | Genome_1 | Genome_2 | Genome_3 | Genome_4 |
+| ------------ | ------ | ------ | ------ | ------ |
+| J            | 120    | 115    | 98     | 102    |
+| K            | 85     | 88     | 72     | 70     |
+| L            | 90     | 92     | 60     | 65     |
+| M            | 45     | 48     | 80     | 78     |
+| T            | 32     | 30     | 18     | 20     |
+
+
+**Note:** No worries - the script will handle genes assigned to multiple COG categories too, counting each category appropriately.
+#### 4. Statistical analysis and visualization with STAMP
 
 ## 2. Metabolic estimation and enrichment analysis
 
