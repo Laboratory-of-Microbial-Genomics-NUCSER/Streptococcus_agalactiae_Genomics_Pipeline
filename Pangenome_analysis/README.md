@@ -104,7 +104,9 @@ python extract_COG_category_annotation.py -i /path/to/eggnog_output_directory
 
 **Note:** No worries - the script will handle genes assigned to multiple COG categories too, counting each category appropriately.
 #### 4. Statistical analysis and visualization with STAMP
+Install STAMP [donovan-h-parks/STAMP/releases/tag/v2.1.3](https://github.com/donovan-h-parks/STAMP/releases/tag/v2.1.3)
 
+Import the COG count tables into STAMP (Statistical Analysis of Metagenomic Profiles) for comparative analysis on funcational enrichment in different groups.
 ## 2. Metabolic estimation and enrichment analysis
 
 Here is the fully reproducible interactive metabolic completeness matrix of *S. agalactiae* ST7 Ia genomes used in this study
