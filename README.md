@@ -70,9 +70,11 @@ Phylogentic reconstruction and time scaled phylogeny
 
 
 ## 5. Genome Wide Association Study
-#### a. 
+#### a. GWAS pipeline
+See section [Genome_Wide_Association_Study_GWAS](Genome_Wide_Association_Study_GWAS/Genome_Wide_Association_Study/README.md)
+ to perform GWAS studies and identify genetic variants (Kmers, genes, SNPs and indels) that are significantly associated with host group or other phenotypic traits.
 #### b. Visualization
-Create an interactive Manhattan plot and hover over the points to view the genetic variants (SNPs and indels) that are associated with the host group. Find the scripts and data here: [GWAS_Interactive_Manhattan_plot README.md](GWAS_Interactive_Manhattan_plot/README.md)
+See section [GWAS_Interactive_Manhattan_Plotting](Genome_Wide_Association_Study_GWAS/GWAS_Interactive_Manhattan_Plotting/README.md)to create an interactive Manhattan plot and visualize genetic variants (Kmers, genes, SNPs and indels) that are significantly associated with the host group and other phenotypic traits. Find the scripts and data for interactive manhattan plot for GWAS of S. agalactiae ST7 Ia isolates used in this study: [GWAS_Interactive_Manhattan_plot README.md](GWAS_Interactive_Manhattan_plot/README.md)
 
 
 ### Acknowledgements and funding

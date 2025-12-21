@@ -1,4 +1,4 @@
-# Genome-Wide Association Study (GWAS)
+# Genome-Wide Association Study (GWAS) 
 This folder contains tools and scripts to perform Genome-Wide Association Studies (GWAS) for identifying genetic markers (SNPs, Indels, and K-mers) associated with phenotypic traits, and mapping them to genes.
 
 ## SNPs
