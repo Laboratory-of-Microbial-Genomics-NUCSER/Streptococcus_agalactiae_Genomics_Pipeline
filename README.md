@@ -1,4 +1,4 @@
-# *Streptococcus_agalactiae*_Host_adaptation_paper
+# *Streptococcus agalactiae* genome analysis pipeline
 This repository contains the scripts and data used in the manuscript described below.
 # Manucript Title
 *authors list
