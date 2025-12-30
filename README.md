@@ -39,9 +39,9 @@ Refer [kaholt/srst2](https://github.com/katholt/srst2) for short read serotype c
 #### 3. Surafce protein and penicilin binding protein based typing 
 For surface protein typing (alpha variants, hvga, pili, and serine rich repeats) and penicilin binding protein based typing follow [GBS-Typer-sanger-nf](https://github.com/sanger-bentley-group/GBS-Typer-sanger-nf) pipeline. 
 #### 4. Prophage integrase typing 
-For prophage integrase based typing on S. agalactiae assemblies follow [chcrestani/GBS_prophage_integrase_typing](https://github.com/chcrestani/GBS_prophage_integrase_typing) 
+For prophage integrase based typing on *S. agalactiae* assemblies follow [chcrestani/GBS_prophage_integrase_typing](https://github.com/chcrestani/GBS_prophage_integrase_typing) 
 #### 5. Insertion sequence elements
-To type S. agalactiae genomes based on IS elements
+To type *S. agalactiae* genomes based on IS elements
 - See section : [ABRicate README](ABRicate/README.md)
 
 #### 6. CRISPR1 typing 
@@ -54,17 +54,24 @@ Mass screenng of resistance genes, virulence genes, and plasmids using [tseemann
 - See section: [ABRicate README](ABRicate/README.md)
 
 ## 3. Phylogentic analysis
-Genome annotation 
+a. Genome annotation 
 
-Core genome alignment
+b. Core genome alignment
 
-Recombination prediction and filtering
+c. Recombination prediction and filtering
 
-Phylogentic reconstruction and time scaled phylogeny
+d. Phylogentic reconstruction and time scaled phylogeny
 
 - see section: [Phylogentic_analysis README](Phylogentic_analysis/README.md)
 
 ## 4. Pan genome analysis and metabolic estimation with anvi'o
+a. Pan genome analysis with anvio
+
+b. Quantfication of genome openess
+
+c. COG functional enrichment
+
+d. Metabolic estimation and enrichement with anvio
 - see section [Pangenome_analysis README](Pangenome_analysis/README.md)
 
 
@@ -72,9 +79,9 @@ Phylogentic reconstruction and time scaled phylogeny
 ## 5. Genome Wide Association Study
 #### a. GWAS pipeline
 See section [Genome_Wide_Association_Study_GWAS](Genome_Wide_Association_Study_GWAS/Genome_Wide_Association_Study/README.md)
- to perform GWAS studies and identify genetic variants (Kmers, genes, SNPs and indels) that are significantly associated with host group or other phenotypic traits.
+: This pipeline enables the identification of genetic variants—including k-mers, SNPs, and indels—that are significantly associated with host groups or other phenotypic traits.
 #### b. Visualization
-See section [GWAS_Interactive_Manhattan_Plotting](Genome_Wide_Association_Study_GWAS/GWAS_Interactive_Manhattan_Plotting/README.md)to create an interactive Manhattan plot and visualize genetic variants (Kmers, genes, SNPs and indels) that are significantly associated with the host group and other phenotypic traits. Find the scripts and data for interactive manhattan plot for GWAS of S. agalactiae ST7 Ia isolates used in this study: [GWAS_Interactive_Manhattan_plot README.md](GWAS_Interactive_Manhattan_plot/README.md)
+See section [GWAS_Interactive_Manhattan_Plotting](Genome_Wide_Association_Study_GWAS/GWAS_Interactive_Manhattan_Plotting/README.md) to reproduce the interactive Manhattan plot used to visualize genetic variants (Kmers, SNPs and indels) of *S. agalactiae* ST-7 Ia that were significantly associated with the host group in this study. 
 
 
 ### Acknowledgements and funding

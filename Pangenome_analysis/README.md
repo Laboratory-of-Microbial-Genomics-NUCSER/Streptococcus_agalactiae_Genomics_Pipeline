@@ -8,7 +8,7 @@ Follow [anvio_install](https://anvio.org/install) for installing anvi'o
 
 
 
-## 1. Pan genome analysis 
+### A. Pan genome analysis 
 
 Here is the fully reproducible interactive pan genome of Streptococcus agalactiae ST7 Ia genomes used in this study 
 
@@ -37,7 +37,7 @@ Here is the summary file [S_agalactiae_gene_clusters_summary.txt.gz](S_agalactia
 
 Follow [pangenome_tutorial_anvio](https://merenlab.org/tutorials/vibrio-jasicida-pangenome/) to run pan genome analysis on your data
 
-### Quantification of genome openness
+### B. Quantification of genome openness
 
 Genome openness can be quantified by computing pangenome rarefaction curves and estimating Heaps’ Law parameters, which indicate whether a pangenome is open or closed by modeling the rate at which new gene clusters are identified with the sequential addition of genomes. This analysis can be  performed using the anvi’o program *anvi-compute-rarefaction-curves* [tutorials](https://merenlab.org/2016/11/08/pangenomics-v2/#calculating-rarefaction-curves-and-heaps-law-parameters)
 
@@ -67,7 +67,7 @@ Number of iterations to run .........................: 100
 Heaps' Law parameters estimated ..............: K=1658.5266, alpha=0.1221                           
 Rarefaction curves ..........................................: Sagalactiae_rarefaction-rarefaction-curves.svg
 
-### Functional enrichment
+### C. COG functional enrichment
 This section describes the workflow used to compare COG functional category enrichment between groups.
 #### 1. Gene prediction with Prodigal 
 Follow [hyattpd/Prodigal](https://github.com/hyattpd/Prodigal) for gene annotation for your assemblies (fna/fa/fasta)
@@ -107,7 +107,7 @@ python extract_COG_category_annotation.py -i /path/to/eggnog_output_directory
 Install STAMP [donovan-h-parks/STAMP/releases/tag/v2.1.3](https://github.com/donovan-h-parks/STAMP/releases/tag/v2.1.3)
 
 Import the COG count tables into STAMP (Statistical Analysis of Metagenomic Profiles) for comparative analysis on funcational enrichment in different groups.
-## 2. Metabolic estimation and enrichment analysis
+### D. Metabolic estimation and enrichment analysis
 
 Here is the fully reproducible interactive metabolic completeness matrix of *S. agalactiae* ST7 Ia genomes used in this study
 
