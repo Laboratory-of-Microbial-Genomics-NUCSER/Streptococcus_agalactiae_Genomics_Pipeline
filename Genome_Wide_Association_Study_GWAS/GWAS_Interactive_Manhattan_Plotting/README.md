@@ -13,7 +13,7 @@ This folder contains the data and scripts used to visualize the Genome-Wide Asso
 - biopython
 
 Install with:
-```python
+```markdown
 pip install pandas numpy plotly biopython
 ```
 #### Files
@@ -25,7 +25,7 @@ pip install pandas numpy plotly biopython
 **Note:** Keep all files together — the script gets lonely otherwise!
 #### Usage
 navigate to the folder containing the script and data files, then run:
-`````python
+`````markdown
 python snp_indels_interactive_manhattan_plot.py
 `````
 
@@ -39,7 +39,7 @@ hover over the points to view the signifcant SNPs that are associated with the h
 - plotly
 
 Install with:
-```python
+```markdown
 pip install pandas numpy plotly
 ```
 #### Files
@@ -53,13 +53,13 @@ pip install pandas numpy plotly
 **Note:** Again. Dont breakapart the files — the script will start crying!
 #### Usage
 navigate to the folder containing the script and data files, then run it for all three references from each of the clades:
-`````python
+`````markdown
 python kmers_interactive_manhattan_plot_clinicalclade.py
 `````
-`````python
+`````markdown
 python kmers_interactive_manhattan_plot_aquaticclade1.py
 `````
-`````python
+`````markdown
 python kmers_interactive_manhattan_plot_aquaticclade2.py
 `````
 
