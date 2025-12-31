@@ -10,8 +10,11 @@ conda install -c conda-forge -c bioconda abricate
 abricate --db card /path_to_assemblyfiles/*.fasta>output_card.tab
 ```
 --db resfinder for antimircobial resistance genes 
+
 --db vfdb for virulence genes 
+
 --db plasmidfinder for plasmid detection
+
 
 Use --mincov and --minid options to change detection coverage and identity threshold 
 
