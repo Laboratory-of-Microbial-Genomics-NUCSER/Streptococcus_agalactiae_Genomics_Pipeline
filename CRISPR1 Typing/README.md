@@ -18,9 +18,9 @@ Convert filtered spacers into presence absence matrix.
 
 | Genome | Spacer1 | Spacer2 | ... |
 |--------|---------|---------|-----|
-| G1     | 1       | 0       | ... |
+| G1     | 0       | 1       | ... |
 | G2     | 1       | 1       | ... |
-| G3     | 0       | 1       | ... |
+| G3     | 1       | 0       | ... |
 
 - Rows = genomes
 - Columns = spacers
