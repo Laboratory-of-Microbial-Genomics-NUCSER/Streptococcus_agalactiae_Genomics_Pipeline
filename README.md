@@ -15,7 +15,7 @@ Perform in silico MLST to assign sequence type (STs) with [tseeman/mlst](https:/
 
 Easy install
 ```markdown
-% conda install -c conda-forge -c bioconda  mlst
+conda install -c conda-forge -c bioconda  mlst
 ```
 Open your directory with all fasta/fna/fa files and just run 
 ```markdown
