@@ -32,7 +32,15 @@ gene_presence_absence.csv
 
 ## 3. Recombination prediction and removal
 Run Genealogies Unbiased By recomBinations In Nucleotide Sequences [nickjcroucher/gubbins](https://github.com/nickjcroucher/gubbins) on core genome alignment to detect and mask recombination regions
-#### Easy install
+#### lets catch python 3.1 first
+```markdown
+conda create -n gubbins310 -c conda-forge -c bioconda python=3.10
+```
+```markdown
+conda activate gubbins310
+```
+
+#### Now install 
 ```markdown
 conda install gubbins
 ```
