@@ -3,10 +3,18 @@
 Identify CRISPR arrays and associated Cas proteins in your assemblies with [CRISPRCasFinder](https://github.com/dcouvin/CRISPRCasFinder)
 
 #### Easy install
+Get the source codes [tar.gz file](https://github.com/dcouvin/CRISPRCasFinder/releases/tag/release-4.3.2) and unzip it
 ```markdown
 conda env create -f ccf.environment.yml -n crisprcasfinder
 ```
+```markdown
+conda activate crisprcasfinder
+```
+```markdown
+cd /path_to_/CRISPRCasFinder-release-4.3.2
+```
 #### **Usage on multiple assembly files**
+
 ```markdown
 for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $file";     perl CRISPRCasFinder.pl -in "$file" -cas -keep; done
 ```
