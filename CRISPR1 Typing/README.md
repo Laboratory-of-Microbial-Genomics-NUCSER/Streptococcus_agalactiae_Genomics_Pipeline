@@ -10,11 +10,11 @@ conda env create -f ccf.environment.yml -n crisprcasfinder
 ```markdown
 conda activate crisprcasfinder
 ```
+
+#### **Usage on multiple assembly files**
 ```markdown
 cd /path_to_/CRISPRCasFinder-release-4.3.2
 ```
-#### **Usage on multiple assembly files**
-
 ```markdown
 for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $file";     perl CRISPRCasFinder.pl -in "$file" -cas -keep; done
 ```
