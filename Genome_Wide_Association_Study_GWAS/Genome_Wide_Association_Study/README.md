@@ -95,7 +95,7 @@ unitig-caller --call \
 lets stop being smart for once and just zip the file
 
 ```markdown
-gzip unitigs
+gzip unitigs.pyseer
 ```
 run pyseer on your zipped file
 ```markdown
@@ -128,6 +128,6 @@ python fdr_correction.py \
   --pcol lrt-pvalue
 ```
 
-**--pcol** defines the p-value column name in your GWAS output file — because not all babies cry the same way.
+**--pcol** defines the p-value column name in your GWAS output file
 
 Adjusted p-values are reported in the column **lrt-pval-FDR** in the output file.
