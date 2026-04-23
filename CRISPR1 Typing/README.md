@@ -3,7 +3,7 @@
 Identify CRISPR arrays and associated Cas proteins in your assemblies with [CRISPRCasTyper](https://github.com/Russel88/CRISPRCasTyper)
 
 #### Easy install
-Get the source codes [tar.gz file](https://github.com/dcouvin/CRISPRCasFinder/releases/tag/release-4.3.2) and unzip it
+
 ```markdown
 conda create -n cctyper -c conda-forge -c bioconda -c russel88 cctyper
 
