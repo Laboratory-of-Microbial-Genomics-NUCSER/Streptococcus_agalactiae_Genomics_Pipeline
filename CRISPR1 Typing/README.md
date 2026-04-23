@@ -19,9 +19,7 @@ cd /path_to_/CRISPRCasFinder-release-4.3.2
 for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $file";     perl CRISPRCasFinder.pl -in "$file" -cas -keep; done
 ```
 
-## 2. Filtering 
-Filter CRISPR1 arrays with evidence level 4 and CRISPR1 arrays with cas association and DR conservation for evidence level <4. 
-
+## 2. Processing 
 Convert filtered spacers into presence absence matrix.
 
 | Genome | Spacer1 | Spacer2 | ... |
@@ -33,11 +31,6 @@ Convert filtered spacers into presence absence matrix.
 - Rows = genomes
 - Columns = spacers
 - Values = 0 or 1
-
-
-CRISPR1 spacers presence/absence matrix for S. agalactiae ST7 Ia isolates
-- Link: [CRISPR1_spacers_filtered.xlsx](CRISPR1_spacers_filtered.xlsx)
-- Link: [CRISPR1_spacer_matrix.csv](CRISPR1_spacer_matrix.csv)
 
 ## 3. Clustering 
 Compute pairwise similarity and generate UPGMA tree based on CRISPR spacer presence/absence matrix using Jaccard distance.
@@ -67,7 +60,7 @@ conda install pandas scipy
 
 ##### Run in Linux / macOS / Windows terminal
 ```markdown
-python3 crispr_upgma_tree.py -i CRISPR1_spacer_matrix.csv -o CRISPR_UPGMA_tree.newick --sep ","
+python3 crispr_upgma_tree.py -i path/to/spacer_matrix.csv -o CRISPR_UPGMA_tree.newick --sep ","
 ```
 #### **Output**
 NEWICK formatted UPGMA tree (tree scale in jaccard distance 0-1)
