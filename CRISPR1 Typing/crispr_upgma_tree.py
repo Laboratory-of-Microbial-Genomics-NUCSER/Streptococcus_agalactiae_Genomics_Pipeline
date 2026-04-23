@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import argparse
 import pandas as pd
 from scipy.spatial.distance import pdist
@@ -71,7 +70,7 @@ def get_newick(node, newick="", parentdist=0.0, leaf_names=None):
 def main():
     args = parse_args()
 
-    # === 1. Load CRISPR spacer presence/absence matrix ===
+    # Load CRISPR spacer presence/absence matrix
     sep = "\t" if args.sep == "\\t" else args.sep
     mat = pd.read_csv(args.input, sep=sep, index_col=0)
 
@@ -80,19 +79,19 @@ def main():
 
     print("Matrix shape (genomes × spacers):", mat.shape)
 
-    # === 2. Compute Jaccard distance between genomes ===
+    # 2. Compute Jaccard distance between genomes
     # pdist works on rows → each row is a genome
     dist_jaccard = pdist(mat.values, metric="jaccard")
 
-    # === 3. UPGMA hierarchical clustering (average linkage) ===
-    Z = linkage(dist_jaccard, method="average")  # UPGMA
+    # 3. UPGMA hierarchical clustering (average linkage)
+    Z = linkage(dist_jaccard, method="average")  
 
-    # === 4. Convert SciPy linkage tree to Newick string ===
+    # 4. Convert SciPy linkage tree to Newick string
     tree = to_tree(Z, rd=False)
     leaf_names = list(mat.index)
     newick_str = get_newick(tree, leaf_names=leaf_names)
 
-    # === 5. Write Newick tree to file ===
+    # 5. Write Newick tree to file
     with open(args.output, "w") as f:
         f.write(newick_str + "\n")
 
