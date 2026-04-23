@@ -8,6 +8,8 @@ The raw sequence data generated in this project is submitted to the SRA () and t
 xxxxx
 ### Abstract
 xxxxx
+### Acknowledgements and funding
+
 # Pipelines
 ## 1. *S. agalactiae* typing schemes
 #### 1.1. MLST
@@ -86,4 +88,3 @@ See section [Genome_Wide_Association_Study_GWAS](Genome_Wide_Association_Study_G
 See section [GWAS_Interactive_Manhattan_Plotting](Genome_Wide_Association_Study_GWAS/GWAS_Interactive_Manhattan_Plotting/README.md) to reproduce the interactive Manhattan plot used to visualize genetic variants (Kmers, SNPs and indels) of *S. agalactiae* ST-7 Ia that were significantly associated with the host group in this study. 
 
 
-### Acknowledgements and funding
