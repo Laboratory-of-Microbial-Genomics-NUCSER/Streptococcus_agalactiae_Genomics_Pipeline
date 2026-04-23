@@ -1,6 +1,6 @@
 # 1. CRISPR1 Typing
 ## Identify CRISPR arrays
-Identify CRISPR arrays and associated Cas proteins in your assemblies with [CRISPRCasFinder](https://github.com/dcouvin/CRISPRCasFinder)
+Identify CRISPR arrays and associated Cas proteins in your assemblies with [CRISPRCasTyper](https://github.com/Russel88/CRISPRCasTyper)
 
 #### Easy install
 Get the source codes [tar.gz file](https://github.com/dcouvin/CRISPRCasFinder/releases/tag/release-4.3.2) and unzip it
