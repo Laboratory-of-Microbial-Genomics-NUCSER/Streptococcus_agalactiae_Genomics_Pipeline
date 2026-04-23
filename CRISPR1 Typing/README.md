@@ -5,19 +5,23 @@ Identify CRISPR arrays and associated Cas proteins in your assemblies with [CRIS
 #### Easy install
 Get the source codes [tar.gz file](https://github.com/dcouvin/CRISPRCasFinder/releases/tag/release-4.3.2) and unzip it
 ```markdown
-conda env create -f ccf.environment.yml -n crisprcasfinder
+conda create -n cctyper -c conda-forge -c bioconda -c russel88 cctyper
+
 ```
 ```markdown
-conda activate crisprcasfinder
+conda activate cctyper
 ```
-
+```markdown
+pip install setuptools==68.2.2
+```
+```markdown
+mkdir results
+```
 #### **Usage on multiple assembly files**
 ```markdown
-cd /path_to_/CRISPRCasFinder-release-4.3.2
+for f in *.fna; do     name=$(basename "$f" .fna);     cctyper "$f" results/"$name" --prodigal meta; done
 ```
-```markdown
-for file path_to_assemblies/*.fna; do     echo ">>> Running CRISPRCasFinder on $file";     perl CRISPRCasFinder.pl -in "$file" -cas -keep; done
-```
+
 
 ## 2. Processing 
 Convert filtered spacers into presence absence matrix.
