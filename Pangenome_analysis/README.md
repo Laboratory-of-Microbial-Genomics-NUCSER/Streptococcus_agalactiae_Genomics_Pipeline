@@ -13,14 +13,12 @@ Follow [anvio_install](https://anvio.org/install) for installing anvi'o
 Here is the fully reproducible interactive pan genome of Streptococcus agalactiae ST7 Ia genomes used in this study 
 
 #### Download 
-[GBS_ST7_Ia_Pangenome.tar.xz](GBS_ST7_Ia_Pangenome.tar.xz) 
-#### Unzip
-```markdown
-tar -xf GBS_ST7_Ia_Pangenome.tar.xz
-``` 
+[ST7_Ia_pangenome.tar.xz](ST7_Ia_pangenome.tar.xz) 
+#### Unzip and move into the directory
+
 #### Move into the directory
 ```markdown
-cd GBS_ST7_Ia_Pangenome
+cd ST7_Ia_pangenome
 ```
 
 #### Activate anvi'o
