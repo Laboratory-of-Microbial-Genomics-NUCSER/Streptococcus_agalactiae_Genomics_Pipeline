@@ -1,14 +1,28 @@
 # *Streptococcus agalactiae* genome analysis pipeline
 This repository contains the scripts and data used in the manuscript described below.
-# Manucript Title
-*authors list
+# Global phylogenomics of piscine and human associated *Streptococcus agalactiae* serotype Ia ST7 isolates reveals diversification and reductive evolution leading aquatic host adaptation
+Rai Kodlamogaru Yajnesh¹, TG Sumithra², Sathiyaraj G³, Vijeth Vittal Naik⁴, Adwait Prashant Dighe¹, Pratik Shekhar Pangul¹, Rochelle Deanne Tauro⁴, Kattapuni Suresh Prithvisagar¹, S.R. Krupesha Sharma², Anusree VN², Anup Mandal³, Athina Papadopoulou⁵, David Ryder⁵, Chantelle Hooper⁵, David Bass⁵,⁶, Praveen Rai¹,⁷, Deekshit VK¹,⁷, Indrani Karunasagar⁸, Iddya Karunasagar⁸, Dharnappa Sannejal Akhila⁴,⁹*, Ballamoole Krishna Kumar¹,⁷*
+
+¹Nitte (Deemed to be University), Department of Infectious Diseases and Microbial Genomics, Nitte University Centre for Science Education and Research (NUCSER), Paneer Campus, Deralakatte, Mangalore, Karnataka, 575018, India
+²ICAR-Central Marine Fisheries Research Institute, Post Box No. 1603, Ernakulam,North P.O.  Kochi-682 018, Kerala, India
+³Central Aquaculture Genetics, Pathology and food testing Laboratories, Rajiv Gandhi Centre for Aquaculture (RGCA), TTTAC, MPEDA, Sirkazhi, Mayiladuthurai- 609 109, Tamil Nadu, India.
+⁴Nitte (Deemed to be University), Department of Food Safety and Nutrition, Nitte University Centre for Science Education and Research (NUCSER), Paneer Campus, Deralakatte, Mangalore, Karnataka, 575018, India
+⁵The Centre for Environment, Fisheries and Aquaculture Science, Barrack Road, The Nothe, Weymouth, Dorset, DT4 8UB, UK
+⁶Sustainable Aquaculture Futures, Biosciences, University of Exeter, Stocker Road Exeter, EX4 4QD, UK.
+⁷Nitte (Deemed to be University), Department of Microbiology, KS Hegde Medical Academy, Deralakatte, Mangalore, Karnataka, 575018, India
+⁸Nitte (Deemed to be University), FAO Reference Centre for Antimicrobial Resistance and Aquaculture Biosecurity, Deralakatte, Mangaluru, 575018, India
+⁹Nitte (Deemed to be University), Department of Biochemistry, KS Hegde Medical Academy, Deralakatte, Mangalore, Karnataka, 575018, India
+
 ### Data Availability  
-The raw sequence data generated in this project is submitted to the SRA () and the genome assemblies are made available through the NCBI Bioproject ()
+All raw sequencing reads and genome assemblies generated in this study have been submitted to the NCBI database under BioProject accession number PRJNA1469759.
 ### Citation
-xxxxx
+Pending
 ### Abstract
-xxxxx
-### Acknowledgements and funding
+*Streptococcus agalactiae* ST7-Ia is an emerging aquaculture pathogen increasingly linked to streptococcosis worldwide. However, its evolutionary relationship with human isolates and zoonotic potential remain unclear. We analysed the genomes of 19 isolates recovered from streptococcosis outbreaks in Indian aquaculture between 2017-2022, together with 23,127 publicly available *S. agalactiae* genomes. All Indian isolates belonged to a single clonal ST7-Ia lineage. Recombination-filtered core-genome phylogeny of 128 global ST7-Ia genomes resolved ST7-Ia into two deeply separated clinical and aquatic host-associated lineages. Bayesian evolutionary analysis estimated the emergence of ST7-Ia around 1908.7 (95% HPD:1868-1933), with divergence of aquatic and clinical populations around 1942.2 (95% HPD:1908-1972) coinciding with aquaculture intensification. CRISPR1 spacer profiles mirrored this host-specific diversification with aquatic isolates showing progressive spacer loss.  Aquatic isolates showed loss of the *scpB–lmb* transposon and lacked AMR genes, whereas 31% of clinical isolates carried tetM within a Tn916-like integrative conjugative element (ICE). Pangenome analysis and association studies identified five host-associated genomic-islands, including an aquatic lineage-specific 74.1-kb ICE enriched in secretion systems, adhesins, and mobile genetic elements, together with lineage-specific loss-of-function mutations affecting transport, metabolism and regulatory pathways, indicating ongoing reductive evolution and aquatic niche specialization. Despite this, two recent invasive human isolates clustered within the aquatic lineage and retained aquatic-specific CRISPR profiles and genomic signatures, providing evidence of fish-to-human host transition. Overall, these findings indicate that ST7-Ia is undergoing host-adaptive genome remodeling associated with aquatic specialization while retaining zoonotic potential, underscoring the need for integrated genomic surveillance across aquaculture and clinical settings.
+### Acknowledgement and funding
+We gratefully acknowledge the financial support provided through Contract No. CEFAS24-29, “Contract for Services for Whole Genome Sequencing of *Streptococcus agalactiae* Serotypes in Indian Aquatic Systems,” under the Ocean Country Partnership Programme (OCPP) by Centre for Environment, Fisheries and Aquaculture Science (Cefas), United Kingdom. We also acknowledge Nitte (Deemed to be University) for providing the institutional support and computational infrastructure required for this study.
+
+
 
 # Pipelines
 ## 1. *S. agalactiae* typing schemes
