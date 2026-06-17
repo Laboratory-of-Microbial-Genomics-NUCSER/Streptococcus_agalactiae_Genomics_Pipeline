@@ -14,7 +14,7 @@ Rai Kodlamogaru Yajnesh¹, TG Sumithra², Sathiyaraj G³, Vijeth Vittal Naik⁴,
 ⁹Nitte (Deemed to be University), Department of Biochemistry, KS Hegde Medical Academy, Deralakatte, Mangalore, Karnataka, 575018, India
 
 *Address for correspondence; *krishnakumarb@nitte.edu.in*
-### Data Availability  
+### Data availability  
 All raw sequencing reads and genome assemblies generated in this study have been submitted to the NCBI database under BioProject accession number PRJNA1469759.
 ### Citation
 Pending
