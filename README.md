@@ -13,7 +13,7 @@ Rai Kodlamogaru Yajnesh¹, TG Sumithra², Sathiyaraj G³, Vijeth Vittal Naik⁴,
 ⁸Nitte (Deemed to be University), FAO Reference Centre for Antimicrobial Resistance and Aquaculture Biosecurity, Deralakatte, Mangaluru, 575018, India
 ⁹Nitte (Deemed to be University), Department of Biochemistry, KS Hegde Medical Academy, Deralakatte, Mangalore, Karnataka, 575018, India
 
-*Address for correspondence; *krishnakumarb@nitte.edu.in*
+*Address for correspondence; *krishnakumarb@nitte.edu.in*, *akhila@nitte.edu.in*
 ### Data availability  
 All raw sequencing reads and genome assemblies generated in this study have been submitted to the NCBI database under BioProject accession number PRJNA1469759.
 ### Citation
